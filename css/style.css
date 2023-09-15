@@ -81,7 +81,13 @@ section{
     width: 600px;
     height: auto;
     border-radius: 5px;
+    transition: .5s;
 }
+
+.home-img img:hover{
+    transform: scale(1.06);
+}
+
 .home-text h1{
     color: var(--main-color);
     font-size: var(--big-font);
@@ -206,6 +212,11 @@ section{
 
 .s-box img{
     width: 90px;
+    transition: .4s;
+}
+
+.s-box img:hover{
+    transform: scale(1.2);
 }
 
 .s-box h3{
@@ -215,7 +226,7 @@ section{
 }
 
 .cta{
-    background: #feeee7;
+    background: #ffffff;
     padding: 70px 0;
     width: 66%;
     text-align: center;
@@ -225,7 +236,7 @@ section{
 
 .cta h2{
     font-size: 2rem;
-    color: var(--bg-color);
+    color: var(--main-color);
     margin-bottom: 2rem;
 }
 
